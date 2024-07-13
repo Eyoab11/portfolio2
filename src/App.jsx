@@ -13,6 +13,7 @@ const App = () => {
       </Route>
     )
   );
+  <BrowserRouter basename={'/react-new-features/'}></BrowserRouter>
   
   return <RouterProvider router={router} />;
 };
