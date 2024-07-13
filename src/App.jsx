@@ -5,7 +5,7 @@ import HomePage from './pages/HomePage';
 
 const App = () => {
   return (
-    <HashRouter basename={'/react-new-features/'}>
+    <HashRouter >
       <Routes>
         <Route path="/" element={<MainLayout />}>
           <Route index element={<HomePage />} />
